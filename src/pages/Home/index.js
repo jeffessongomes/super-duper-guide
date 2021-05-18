@@ -47,7 +47,7 @@ export default function Home() {
 
   return (
     <Container>
-      <Row>
+      <Row className="justify-content-center">
         <Col sm={12} lg={8} className="offset-lg-1">
           <div className="header">
             <div className="header__logo">
@@ -82,19 +82,19 @@ export default function Home() {
           </div>
         </Col>
       </Row>
-      <Row>
-        <Col sm={12} lg={8} className="offset-lg-1">
-          {users.map((user) => (
+      <Row className="justify-content-center">
+        {users.map((user) => (
+          <Col key={user.id} sm={12} lg={8} className="offset-lg-1">
             <Card
-              key={user.id}
               link={user?.login}
               name={user?.name}
+              bio={user?.bio}
               followers={user?.followers}
               following={user?.following}
               avatar={user?.avatar_url}
             />
-          ))}
-        </Col>
+          </Col>
+        ))}
       </Row>
     </Container>
   );

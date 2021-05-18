@@ -8,7 +8,7 @@ export default function Card({
   name,
   avatar,
   link,
-  description,
+  bio,
   followers,
   following,
 }) {
@@ -19,14 +19,14 @@ export default function Card({
         <div className="cardUser__content">
           <div>
             <strong>{name}</strong>
-            <p>{description}</p>
+            <p>{bio}</p>
           </div>
           <div className="cardUser__content--social">
             <strong>Seguidores: {followers}</strong>
             <strong>Seguindo: {following}</strong>
           </div>
         </div>
-        <button type="button">
+        <button type="button" className="d-none d-lg-block">
           <IoIosArrowForward size={24} color="#BDC3C7" />
         </button>
       </div>
