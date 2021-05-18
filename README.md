@@ -1,70 +1,90 @@
-# Getting Started with Create React App
+<h1 align="center">Git Search</h1>
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+<p align="center">
+  <img alt="Tamanho do Repositório" src="https://img.shields.io/github/repo-size/jeffessongomes/super-duper-guide?style=for-the-badge">
+  <img alt="GitHub last commit" src="https://img.shields.io/github/last-commit/jeffessongomes/super-duper-guide?style=for-the-badge">
+  <a href="https://github.com/jeffessongomes">
+    <img alt="Feito pelo Jeffesson Gomes" src="https://img.shields.io/badge/feito%20por-Jeffesson Gomes-%237519C1?style=for-the-badge">
+  </a>
+  <img alt="Licença do Projeto" src="https://img.shields.io/github/license/jeffessongomes/super-duper-guide?style=for-the-badge"/>
+<p>
 
-## Available Scripts
+<p align="center">
+ <a href="#computer-sobre">Sobre</a> •
+ <a href="#triangular_ruler-status-do-projeto">Status</a> •
+ <a href="#dvd-executar-o-projeto">Executar</a> •
+ <a href="#hammer-tecnologias">Tecnologias</a> •
+ <a href="#boy-autor">Autor</a> •
+ <a href="#page_facing_up-licença">Licença</a>
+</p>
 
-In the project directory, you can run:
+## :computer: Sobre
 
-### `yarn start`
+O projeto é um desafio proposto pela compasso Uol.
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in the browser.
 
-The page will reload if you make edits.\
-You will also see any lint errors in the console.
+---
 
-### `yarn test`
+### :camera_flash: Demonstração [LINK](https://rits-challenge.herokuapp.com)
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+<p align="center">
+  <img alt="Compasso UOL" src="./.github/assets/banner.png">
+</p>
 
-### `yarn build`
+<p align="center">
+	Você pode ver a demonstração nesse site (https://gitsearch-uol.herokuapp.com/)
+</p>
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+---
+### :hammer: **Tecnologias**
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+As seguintes ferramentas foram utilizadas na construção do projeto:
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+- [React](https://reactjs.org)
+- Sass
+- Axios
+- Bootstrap
 
-### `yarn eject`
+---
+### :triangular_ruler: **Status do Projeto**
 
-**Note: this is a one-way operation. Once you `eject`, you can’t go back!**
+<h4 align="center"> 
+	👨‍🏫 O desafio está finalizado !
+</h4>
 
-If you aren’t satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+### :dvd: **Executar o Projeto**
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you’re on your own.
+```bash
+# Clone este repositório
+$ git clone jeffessongomes/super-duper-guide/
 
-You don’t have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn’t feel obligated to use this feature. However we understand that this tool wouldn’t be useful if you couldn’t customize it when you are ready for it.
+# Acesse a pasta do projeto no terminal/cmd
+$ cd super-duper-guide
 
-## Learn More
+# Instale as dependências
+$ yarn install
 
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
+# Execute a aplicação em modo de desenvolvimento
+$ yarn start
+```
 
-To learn React, check out the [React documentation](https://reactjs.org/).
+### :boy: **Autor**
 
-### Code Splitting
+<div align="center">
+<a href="https://github.com/jeffessongomes">
+ <img style="border-radius: 50%;" src="https://avatars3.githubusercontent.com/u/17955358?s=460&u=ba042b3e183a3e36de57089bb11196ef3985de26&v=4" width="100px;" alt="Foto de Perfil Jeffesson Gomes"/>
+ <br />
+ <sub><b>Jeffesson Gomes</b></sub></a>
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
+Feito com ❤️ por Jeffesson Gomes 👋🏽 Entre em contato!
 
-### Analyzing the Bundle Size
+[![Linkedin Badge](https://img.shields.io/badge/-Jeffesson_Gomes-blue?style=flat-square&logo=Linkedin&logoColor=white&link=https://www.linkedin.com/in/jeffesson-gomes-de-almeida-2b36911aa/)](https://www.linkedin.com/in/jeffesson-gomes-de-almeida-2b36911aa/)
+[![Github Badge](https://img.shields.io/badge/-Jeffesson_Gomes-000?style=flat-square&logo=Github&logoColor=white&link=https://github.com/jeffessongomes)](https://github.com/jeffessongomes)
+</div>
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
+---
+### :page_facing_up: **Licença**
 
-### Making a Progressive Web App
+<br />
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
-
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `yarn build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+Este projeto é licenciado pelo [MIT](./LICENSE).
