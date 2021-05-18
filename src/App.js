@@ -1,5 +1,7 @@
+import Routes from './routes';
+
 function App() {
-  return <div>Hell World!</div>;
+  return <Routes />;
 }
 
 export default App;
